@@ -1227,9 +1227,6 @@ textarea:focus {
   margin-right: 20px;
 }
 
-.profile-picture {
-  max-height: 70%;
-}
 
 @media (max-width: 250px) {
   .contact-info p {
