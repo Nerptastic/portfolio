@@ -84,13 +84,13 @@ svg .animated {
   fill: none;
   stroke: white;
   stroke-dasharray: 5% 30%;
-  stroke-width: 1px;
+  stroke-width: 2px;
   stroke-dashoffset: 0%;
   animation: stroke-offset 5.5s infinite linear;
 }
 
 .animated-header:nth-child(1){
-stroke: #343434;
+stroke: #6c6c6c;
 animation-delay: -1;
 }
 
@@ -100,12 +100,12 @@ animation-delay: -2s;
 }
 
 .animated-header:nth-child(3){
-stroke: #727272;
+stroke: #b5b5b5;
 animation-delay: -3s;
 }
 
 .animated-header:nth-child(4){
-stroke: #545454;
+stroke: #d6d6d6;
 animation-delay: -4s;
 }
 
@@ -1225,6 +1225,10 @@ textarea:focus {
 .contact-info p {
   display: inline-block;
   margin-right: 20px;
+}
+
+.profile-picture {
+  max-height: 70%;
 }
 
 @media (max-width: 250px) {
