@@ -1,9 +1,30 @@
 function Resume() {
   return (
-    <div className="Resume">
-        <span>resume</span>
+    <div className="Resume pb-24">
+        <h2 className="text-4xl font-bold my-4">Resume</h2>
+        <div class="post-content">
+          <hr />
+          <p className="my-2"><a href="mailto:nichopaolucci@gmail.com">Email</a> | <a href="https://linkedin.com/in/nichopaolucci">LinkedIn</a> | <a href="https://github.com/nerptastic">GitHub</a></p>
+          <hr />
+          <h4 className="my-2 text-xl"><strong>Education</strong></h4>
+          <p className="my-2"><strong>The University of Akron</strong> <em>Graphic Design</em>, 2021</p>
+          <hr />
+          <h4 className="my-2 text-xl"><strong>Work Experience</strong></h4>
+          <p className="my-4">Web Developer, <strong>Cohen & Company</strong> (<em>current</em>)</p>
+          <p className="my-4">Art Director, <strong>AfterMath Inc.</strong> (<em>2022</em>)</p>
+          <p className="my-4">Web Developer, <strong>Triad</strong> (<em>2021</em>)</p>
+          <p className="my-4">Web Developer, <strong>Yoder Graphics Systems</strong> (<em>2019</em>)</p>
+          <hr />
+          <h4 className="my-2 text-xl"><strong>Technologies</strong></h4>
+          <p className="my-4"><em>Languages:</em>  JavaScript, SCSS, HTML, Tailwind, PHP, Rust*, Go*, Julia*, Swift, Lua*</p>
+          <p className="my-4"><em>Technologies:</em> React, WebPack, Next.js, Spark*, Docker*, Flask*, Django*</p>
+          <p className="my-4"><em>Design:</em> Figma, XD, Illustrator, Photoshop, InDesign, Blender</p>
+          </div>
     </div>
   );
 }
 
 export default Resume;
+
+
+
