@@ -6,7 +6,7 @@ function Projects() {
               <hr />
               <p className="my-4">These are <strong>Under Construction</strong>, let me know if you want to help!</p>
               <p className="my-4"><a className="underline" href="https://www.helpher.io" target="_blank" rel="noreferrer"><strong>HelpHer.io</strong></a> - A helpful resource for women.</p>
-              <p className="my-4"><a className="underline" href="https://www.fourpointfour.com" target="_blank" rel="noreferrer"><strong>four.four</strong></a> - A templating device for HTML email (the bane of my existence).</p>
+              <p className="my-4"><span className="underline line-through"><strong>Four.Four </strong></span><span className="line-through">- A templating device for HTML email (the bane of my existence).</span></p>
               <p className="my-4"><span className="underline line-through"><strong>Friend Cabin </strong></span><span className="line-through">- A place to connect with friends.</span> <span className="text-red-300">Currently Inactive</span></p>
               <hr />
           </div>
