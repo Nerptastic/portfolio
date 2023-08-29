@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function Misc() {
+function Fun() {
   return (
     <div className="Misc pb-24">
         <h2 className="text-4xl font-bold my-4">Fun Stuff!</h2>
@@ -21,7 +21,7 @@ function Misc() {
                   <td className="border border-current text-center">225</td>
                 </tr>
               </table>
-              <p className="my-4">Feel free to check out <Link className="underline" to="/projects"><em>my past projects</em></Link> or check out the <Link className="underline" to="/misc"><em>things I do for fun</em></Link>.</p>
+              <p className="my-4">Feel free to check out <Link className="underline" to="/projects"><em>my past projects</em></Link>.</p>
               <hr />
               <p><em></em></p><div className="text-right"><em>design, learn, refine</em></div><p></p>
               <hr />
@@ -30,4 +30,4 @@ function Misc() {
   );
 }
 
-export default Misc;
+export default Fun;

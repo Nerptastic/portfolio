@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
-import Misc from './components/Misc';
+import Fun from './components/Fun';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 
@@ -11,7 +11,7 @@ function MainContent() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/misc" element={<Misc />} />
+      <Route path="/fun" element={<Fun />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/resume" element={<Resume />} />
     </Routes>
