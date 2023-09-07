@@ -4,7 +4,7 @@ function Resume() {
         <h2 className="text-4xl font-bold my-4">Resume</h2>
         <div class="post-content">
           <hr />
-          <p className="my-2"><a href="mailto:nichopaolucci@gmail.com">Email</a> | <a href="https://linkedin.com/in/nichopaolucci">LinkedIn</a> | <a href="https://github.com/nerptastic">GitHub</a></p>
+          <p className="my-2"><a href="mailto:nichopaolucci@gmail.com">Email</a> | <a href="https://linkedin.com/in/nichopaolucci" target="_blank" rel="noreferrer">LinkedIn</a> | <a href="https://github.com/nerptastic" target="_blank" rel="noreferrer">GitHub</a></p>
           <hr />
           <h4 className="my-2 text-xl"><strong>Education</strong></h4>
           <p className="my-2"><strong>The University of Akron</strong> <em>Graphic Design</em>, 2021</p>
