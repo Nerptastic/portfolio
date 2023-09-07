@@ -18,7 +18,10 @@ function Resume() {
           <h4 className="my-2 text-xl"><strong>Technologies</strong></h4>
           <p className="my-4"><em>Development:</em>  HTML5, CSS3, JavaScript (ES6), React, Git, WordPress, Drupal, Webpack, <br />Tailwind CSS, SCSS, Bootstrap, NPM, SQL, jQuery, Node, NGINX, PHP</p>
           <p className="my-4"><em>Design:</em> Figma, XD, Illustrator, Photoshop, Blender, InDesign, Lightroom, After Effects</p>
-          </div>
+        </div>
+        <hr />
+        <p><div className="text-right"><em>design, learn, refine</em></div></p>
+        <hr />
     </div>
   );
 }

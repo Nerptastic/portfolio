@@ -17,8 +17,8 @@ function Header() {
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
                 <Link to="/about">About</Link>
-                <Link to="/fun">Fun</Link>
                 <Link to="/projects">Projects</Link>
+                <Link to="/fun">Fun</Link>
                 <Link to="/resume">Resume</Link>
             </div>
             {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
