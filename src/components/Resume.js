@@ -11,12 +11,12 @@ function Resume() {
           <hr />
           <h4 className="my-2 text-xl"><strong>Work Experience</strong></h4>
           <p className="my-4">Web Developer, <strong>Cohen & Company</strong> (<em>current</em>)</p>
-          <p className="my-4">Art Director, <strong>AfterMath Inc.</strong> (<em>2022</em>)</p>
+          <p className="my-4">Web Developer / Designer, <strong>AfterMath Inc.</strong> (<em>2022</em>)</p>
           <p className="my-4">Web Developer, <strong>Triad</strong> (<em>2021</em>)</p>
           <p className="my-4">Web Developer, <strong>Yoder Graphics Systems</strong> (<em>2019</em>)</p>
           <hr />
           <h4 className="my-2 text-xl"><strong>Technologies</strong></h4>
-          <p className="my-4"><em>Development:</em>  HTML5, CSS3, JavaScript (ES6), React, Git, WordPress, Drupal, Webpack, <br />Tailwind CSS, SCSS, Bootstrap, NPM, SQL, jQuery, Node, NGINX, PHP</p>
+          <p className="my-4"><em>Development:</em> React, Tailwind, Git, WordPress, Drupal, Webpack, <br /> SCSS, Bootstrap, NPM, SQL, jQuery, Node, NGINX, PHP, HTML5, CSS3, JavaScript (ES6)</p>
           <p className="my-4"><em>Design:</em> Figma, XD, Illustrator, Photoshop, Blender, InDesign, Lightroom, After Effects</p>
         </div>
         <hr />
