@@ -12,7 +12,7 @@ function Resume() {
           <h4 className="my-2 text-xl"><strong>Work Experience</strong></h4>
           <p className="my-4">Web Developer, <strong>Cohen & Company</strong> (<em>current</em>)</p>
           <p className="my-4">Web Developer / Designer, <strong>AfterMath Inc.</strong> (<em>2022</em>)</p>
-          <p className="my-4">Web Developer, <strong>Triad</strong> (<em>2021</em>)</p>
+          <p className="my-4">Web Developer Intern, <strong>Triad</strong> (<em>2021</em>)</p>
           <p className="my-4">Web Developer, <strong>Yoder Graphics Systems</strong> (<em>2019</em>)</p>
           <hr />
           <h4 className="my-2 text-xl"><strong>Technologies</strong></h4>
