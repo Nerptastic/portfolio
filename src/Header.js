@@ -1,34 +1,48 @@
 import { Link } from 'react-router-dom';
 
+function toggleMenu() {
+    console.log("Displaying Menu");
+    var mobileMenu = document.getElementById("mobileMenu");
+
+    if (mobileMenu.classList.contains("hidden")){
+        mobileMenu.classList.remove("hidden")
+    } else {
+        mobileMenu.classList.add("hidden")
+    }
+}
+
 function Header() {
   return (
       <header className="Header flex-initial">
-        <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <nav className="mx-auto flex max-w-7xl justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
                 <Link to="/" className="font-semibold text-xl">Nicholas Paolucci</Link>
             </div>
-            <div className="flex lg:hidden">
-                <button type="button" className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+            <div className="lg:hidden text-right">
+                <button type="button" className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" onClick={toggleMenu}>
                     <span className="sr-only">Open main menu</span>
-                    <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#222" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                     </svg>
                 </button>
+                <div id="mobileMenu" className="hidden max-w-7xl p-2 lg:px-2 lg:hidden">
+                    <ul className="text-right underline">
+                        <li className="mobile-menu text-xl" onClick={toggleMenu}><Link to="/about">About</Link></li>
+                        <li className="mobile-menu text-xl" onClick={toggleMenu}><Link to="/projects">Projects</Link></li>
+                        <li className="mobile-menu text-xl" onClick={toggleMenu}><Link to="/fun">Fun</Link></li>
+                        <li className="mobile-menu text-xl" onClick={toggleMenu}><Link to="/resume">Resume</Link></li>
+                    </ul>
+                </div>
             </div>
+
             <div className="hidden lg:flex lg:gap-x-12">
                 <Link to="/about">About</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/fun">Fun</Link>
                 <Link to="/resume">Resume</Link>
             </div>
-            {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                <span className="theme-toggle not-selectable">
-                    <svg className="theme_toggler" width="24" height="24" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22 3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"></path>
-                    </svg>
-                </span>
-            </div> */}
         </nav>
+
       </header>
   );
 }

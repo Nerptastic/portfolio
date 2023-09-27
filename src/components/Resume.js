@@ -2,7 +2,7 @@ function Resume() {
   return (
     <div className="Resume pb-24">
         <h2 className="text-4xl font-bold my-4">Resume</h2>
-        <div class="post-content">
+        <div className="post-content">
           <hr />
           <p className="my-2"><a href="mailto:nichopaolucci@gmail.com">Email</a> | <a href="https://linkedin.com/in/nichopaolucci" target="_blank" rel="noreferrer">LinkedIn</a> | <a href="https://github.com/nerptastic" target="_blank" rel="noreferrer">GitHub</a></p>
           <hr />
@@ -20,7 +20,7 @@ function Resume() {
           <p className="my-4"><em>Design:</em> Figma, XD, Illustrator, Photoshop, Blender, InDesign, Lightroom, After Effects</p>
         </div>
         <hr />
-        <p><div className="text-right"><em>design, learn, refine</em></div></p>
+        <p className="text-right"><span><em>design, learn, refine</em></span></p>
         <hr />
     </div>
   );

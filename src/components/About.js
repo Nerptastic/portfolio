@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="About pb-24">
         <h2 className="text-4xl font-bold my-4">About Me</h2>
-          <div class="post-content">
+          <div className="post-content">
               <hr />
               <p className="my-4"><em>Howdy!</em></p>
               <p className="my-4">My name is <strong>Nicholas Paolucci</strong>, I like to make stuff.</p>
@@ -12,7 +12,7 @@ function About() {
               <p className="my-4">My favorite things include <strong>simplicity</strong>, <strong>automation</strong>, <strong>usability</strong> and <strong>accesibility</strong>.</p>
               <p className="my-4">Feel free to check out <Link className="underline" to="/projects"><em>my past projects</em></Link> or check out the <Link className="underline" to="/fun"><em>things I do for fun</em></Link>.</p>
               <hr />
-              <p><em></em></p><div className="text-right"><em>design, learn, refine</em></div><p></p>
+              <p className="text-right"><span><em>design, learn, refine</em></span></p>
               <hr />
           </div>
     </div>
