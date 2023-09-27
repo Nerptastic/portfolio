@@ -1,6 +1,6 @@
-function Projects() {
+function Work() {
   return (
-    <div className="Projects pb-24">
+    <div className="Work pb-24">
         <h2 className="text-4xl font-bold my-4">Past Work</h2>
           <div className="post-content">
               <hr />
@@ -12,7 +12,7 @@ function Projects() {
               <hr />
           </div>
         
-        <h2 className="text-4xl font-bold my-4">Personal Projects</h2>
+        <h2 className="text-4xl font-bold my-4">Personal Work</h2>
           <div className="post-content">
                 <hr />
                 <p className="my-4">These are, of course, <strong>Under Construction</strong>, let me know if you want to help!</p>
@@ -27,4 +27,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Work;

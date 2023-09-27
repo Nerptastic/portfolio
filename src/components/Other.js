@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Fun() {
   return (
     <div className="Misc pb-24">
-        <h2 className="text-4xl font-bold my-4">Fun Stuff!</h2>
+        <h2 className="text-4xl font-bold my-4">Other Stuff!</h2>
           <div className="post-content">
               <hr />
               <p className="my-4">I enjoy wrenching on my <strong>08 Honda Nighthawk</strong> and cursing at my <strong>05 Camry</strong>.</p>
@@ -23,7 +23,7 @@ function Fun() {
                   </tr>
                 </tbody>
               </table>
-              <p className="my-4">Feel free to check out <Link className="underline" to="/projects"><em>my past projects</em></Link>.</p>
+              <p className="my-4">Feel free to check out <Link className="underline" to="/work"><em>my work</em></Link>.</p>
               <hr />
               <p className="text-right"><span><em>design, learn, refine</em></span></p>
               <hr />

@@ -28,18 +28,19 @@ function Header() {
                 <div id="mobileMenu" className="hidden max-w-7xl p-2 lg:px-2 lg:hidden">
                     <ul className="text-right underline">
                         <li className="mobile-menu text-xl" onClick={toggleMenu}><Link to="/about">About</Link></li>
-                        <li className="mobile-menu text-xl" onClick={toggleMenu}><Link to="/projects">Projects</Link></li>
-                        <li className="mobile-menu text-xl" onClick={toggleMenu}><Link to="/fun">Fun</Link></li>
+                        <li className="mobile-menu text-xl" onClick={toggleMenu}><Link to="/work">Work</Link></li>
                         <li className="mobile-menu text-xl" onClick={toggleMenu}><Link to="/resume">Resume</Link></li>
+                        <li className="mobile-menu text-xl" onClick={toggleMenu}><Link to="/other">Other</Link></li>
                     </ul>
                 </div>
             </div>
 
             <div className="hidden lg:flex lg:gap-x-12">
                 <Link to="/about">About</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/fun">Fun</Link>
+                <Link to="/work">Work</Link>
                 <Link to="/resume">Resume</Link>
+                <Link to="/other">Other</Link>
+
             </div>
         </nav>
 

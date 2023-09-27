@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
-import Fun from './components/Fun';
-import Projects from './components/Projects';
+import Other from './components/Other';
+import Work from './components/Work';
 import Resume from './components/Resume';
 
 function MainContent() {
@@ -11,8 +11,8 @@ function MainContent() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/fun" element={<Fun />} />
-      <Route path="/projects" element={<Projects />} />
+      <Route path="/other" element={<Other />} />
+      <Route path="/work" element={<Work />} />
       <Route path="/resume" element={<Resume />} />
     </Routes>
     </div>
