@@ -15,8 +15,9 @@ function Work() {
         <h2 className="text-4xl font-bold my-4">Personal Work</h2>
           <div className="post-content">
                 <hr />
-                <p className="my-4">These are, of course, <strong>Under Construction</strong>, let me know if you want to help!</p>
+                <p className="my-4">These are <strong>Under Construction</strong>, let me know if you want to help!</p>
                 <p className="my-4"><a className="underline" href="https://helpher.io/" target="_blank" rel="noreferrer"><strong>HelpHer.io</strong></a> - I'm working on a helpful resource for women.</p>
+                <p className="my-4"><a className="underline" href="https://main--tubular-boba-955693.netlify.app/" target="_blank" rel="noreferrer"><strong>National Park Info</strong></a> - I made this little page to show some park data.</p>
                 <p className="my-4"><a className="underline" href="https://github.com/Nerptastic/EZCSS" target="_blank" rel="noreferrer"><strong>EZCSS</strong></a> - I use this CSS for spinning up smaller sites.</p>
                 <hr />
           </div>
