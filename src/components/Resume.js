@@ -11,13 +11,15 @@ function Resume() {
           <hr />
           <h4 className="my-2 text-xl"><strong>Work Experience</strong></h4>
           <p className="my-4">Web Developer, <strong>Cohen & Company</strong> (<em>current</em>)</p>
-          <p className="my-4">Web Developer / Designer, <strong>AfterMath Inc.</strong> (<em>2022</em>)</p>
-          <p className="my-4">Web Developer Intern, <strong>Triad</strong> (<em>2021</em>)</p>
-          <p className="my-4">Web Developer, <strong>Yoder Graphics Systems</strong> (<em>2019</em>)</p>
+          <p className="my-4">Web Developer / Designer, <strong>AfterMath, Inc.</strong> (<em>2022</em>)</p>
+          <p className="my-4">Web Developer Intern, <strong>Triad Advertising</strong> (<em>2021</em>)</p>
+          <p className="my-4">Web Developer, <strong>Yoder Graphics Systems, Inc.</strong> (<em>2019</em>)</p>
           <hr />
           <h4 className="my-2 text-xl"><strong>Technologies</strong></h4>
-          <p className="my-4"><em>Development:</em> React, Tailwind, Git, WordPress, Drupal, Webpack, <br /> SCSS, Bootstrap, NPM, SQL, jQuery, Node, NGINX, PHP, HTML5, CSS3, JavaScript (ES6)</p>
-          <p className="my-4"><em>Design:</em> Figma, XD, Illustrator, Photoshop, Blender, InDesign, Lightroom, After Effects</p>
+          <p className="my-4"><em>Technologies:</em> React, JavaScript, HTML, CSS, TypeScript, Tailwind, SCSS, Bootstrap, Node.js, PHP, <br /> SQL,                 
+                         Git, npm, WordPress, Drupal, jQuery, Webpack, ESLint</p>
+          <p className="my-4"><em>Skills:</em> Agile, Technical Writing, UI/UX Design, Graphic Design, Copywriting, Video Editing</p>
+          <p className="my-4"><em>Interests:</em> Home Servers, Guitar, Piano, Motorcycles, Powerlifting, Tattoos, Reading</p>
         </div>
         <hr />
         <p className="text-right"><span><em>design, learn, refine</em></span></p>
