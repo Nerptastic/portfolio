@@ -7,7 +7,7 @@ function Resume() {
           <p className="my-2"><a href="mailto:nichopaolucci@gmail.com">Email</a> | <a href="https://linkedin.com/in/nichopaolucci" target="_blank" rel="noreferrer">LinkedIn</a> | <a href="https://github.com/nerptastic" target="_blank" rel="noreferrer">GitHub</a></p>
           <hr />
           <h4 className="my-2 text-xl"><strong>Education</strong></h4>
-          <p className="my-2"><strong>The University of Akron</strong> <em>Graphic Design</em>, 2021</p>
+          <p className="my-2"><em>BFA, Graphic Design,</em> <strong>The University of Akron</strong>, 2021</p>
           <hr />
           <h4 className="my-2 text-xl"><strong>Work Experience</strong></h4>
           <p className="my-4">Web Developer, <strong>Cohen & Company</strong> (<em>current</em>)</p>
