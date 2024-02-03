@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Footer() {
   return (
     <div className="Footer flex-initial p-6 lg:px-8">

@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Work() {
   return (
     <div className="Work pb-24">

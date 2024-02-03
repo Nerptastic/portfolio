@@ -1,0 +1,2 @@
+@tailwind base;@tailwind components;@tailwind utilities;body{background-color:#f0f0ec}#root{font-family:ui-serif,Georgia,Cambria,"Times New Roman",Times,serif;font-display:auto;font-size:1rem;line-height:1.54;text-rendering:optimizeLegibility;-webkit-overflow-scrolling:touch;-webkit-text-size-adjust:100%;flex-direction:column;background-color:#f0f0ec;color:#222}#root,.app-container{display:flex;min-height:100vh}.app-container{flex-direction:column;flex:1 1}hr{border-color:#222}
+/*# sourceMappingURL=main.eef81dc3.chunk.css.map */
