@@ -18,10 +18,9 @@ function Resume() {
           <p className="my-4">Web Developer Intern, <strong>Yoder Graphics Systems, Inc.</strong> (<em>December 2019–May 2021</em>)</p>
           <hr />
           <h4 className="my-2 text-xl"><strong>Technologies</strong></h4>
-          <p className="my-4"><em>Technologies:</em> React, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Node.js, Express.js, MongoDB,
-                                                      SQL, Git, Webpack, Jest, ESLint, RESTful APIs, Adobe Creative Suite, Figma</p>
-          <p className="my-4"><em>Skills:</em> Technical Writing, CI/CD, Agile Methodologies, SEO, UI/UX Design, Wireframing, Prototyping</p>
-          <p className="my-4"><em>Interests:</em> Home Servers, Raspberry Pi, Guitar, Piano, Motorcycles, Powerlifting, Tattoos, Reading</p>
+          <p className="my-4"><em>Technologies:</em> React, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Node.js, Express.js, Postgres, SQL, Git, Webpack, Jest, ESLint, Adobe Creative Suite, Figma</p>
+          <p className="my-4"><em>Skills:</em> Responsive Design, Web Performance Optimization, Technical Writing, SEO, Agile Development</p>
+          <p className="my-4"><em>Interests:</em> Home Servers, Raspberry Pi, Motorcycles, Guitar, Piano, Running, Powerlifting</p>
         </div>
         <hr />
         <p className="text-right"><span><em>design, learn, refine</em></span></p>
