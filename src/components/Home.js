@@ -1,8 +1,10 @@
 import React from 'react';
+import Cursor from './Cursor'; // Import the Cursor component
 
 function Home() {
   return (
     <div className="Home text-center pb-24">
+        <Cursor />
         <h1 className="text-4xl font-bold">Nicholas Paolucci</h1>
           <p className="m-4">Building online experiences</p>
           <div className="flex justify-center space-x-4 mt-2">

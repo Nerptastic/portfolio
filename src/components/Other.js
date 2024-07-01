@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Cursor from './Cursor'; // Import the Cursor component
 
 function Fun() {
   return (
     <div className="Misc pb-24">
+        <Cursor />
         <h2 className="text-4xl font-bold my-4">Other Stuff!</h2>
           <div className="post-content">
               <hr />

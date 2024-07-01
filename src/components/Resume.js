@@ -1,8 +1,10 @@
 import React from 'react';
+import Cursor from './Cursor'; // Import the Cursor component
 
 function Resume() {
   return (
     <div className="Resume pb-24">
+        <Cursor />
         <h2 className="text-4xl font-bold my-4">Resume</h2>
         <div className="post-content">
           <hr />
