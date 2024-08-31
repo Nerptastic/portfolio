@@ -24,8 +24,8 @@ function Work() {
                 <hr />
                 <p className="my-4">These are <strong>Under Construction</strong>, wear your hard hats!</p>
                 <p className="my-4"><a className="underline" href="https://helpher.io/" target="_blank" rel="noreferrer"><strong>HelpHer.io</strong></a> - I'm working on a helpful resource for women.</p>
-                <p className="my-4"><a className="underline" href="https://national-parks-delta.vercel.app/" target="_blank" rel="noreferrer"><strong>National Park Info</strong></a> - A little hobby page that pulls data from the National Park API.</p>
                 <p className="my-4"><a className="underline" href="https://fourpointfour.com" target="_blank" rel="noreferrer"><strong>FourPointFour</strong></a> - I made this site for an LLC I occasionally work under.</p>
+                <p className="my-4"><a className="underline" href="https://national-parks-delta.vercel.app/" target="_blank" rel="noreferrer"><strong>National Park Info</strong></a> - A little hobby page that pulls data from the National Park API.</p>
                 <p className="my-4"><a className="underline" href="https://github.com/Nerptastic/EZCSS" target="_blank" rel="noreferrer"><strong>EZCSS</strong></a> - I use this CSS for spinning up smaller sites.</p>
                 
                 <hr />

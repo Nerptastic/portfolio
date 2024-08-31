@@ -46,9 +46,9 @@ function Header() {
                   <li className="mobile-menu text-xl pt-4" onClick={toggleMenu}>
                     <NavLink to="/resume" className={linkClasses}>Resume</NavLink>
                   </li>
-                  <li className="mobile-menu text-xl pt-4" onClick={toggleMenu}>
-                    <NavLink to="/other" className={linkClasses}>Other</NavLink>
-                  </li>
+                  {/* <li className="mobile-menu text-xl pt-4" onClick={toggleMenu}>
+                    <NavLink to="/blog" className={linkClasses}>Blog</NavLink>
+                  </li> */}
                 </ul>
               </div>
           </div>
@@ -56,7 +56,7 @@ function Header() {
             <NavLink to="/about" className={linkClasses}>About</NavLink>
             <NavLink to="/work" className={linkClasses}>Work</NavLink>
             <NavLink to="/resume" className={linkClasses}>Resume</NavLink>
-            <NavLink to="/other" className={linkClasses}>Other</NavLink>
+            {/* <NavLink to="/blog" className={linkClasses}>Blog</NavLink> */}
           </div>
         </nav>
 
