@@ -20,7 +20,6 @@ function Resume() {
           <h4 className="my-2 text-xl"><strong>Education</strong></h4>
           <p className="my-2"><em>Bachelor's, Graphic Design,</em> <strong>The University of Akron</strong>, 2021</p>
           <hr />
-          <hr />
           <h4 className="my-2 text-xl"><strong>Languages, Technologies, Skills & Interests</strong></h4>
           <p className="my-4"><em>Languages:</em> JavaScript (ES6+), TypeScript, Python, HTML5, CSS3, SQL, PHP</p>
           <p className="my-4"><em>Technologies:</em> React, Next.js, Vue.js, Nuxt.js, Node.js, Express.js, WordPress, Drupal</p>
