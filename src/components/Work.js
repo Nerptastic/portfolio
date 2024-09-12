@@ -9,12 +9,12 @@ function Work() {
           <div className="post-content">
               <hr />
               <p className="my-4">You can view some of my <strong>professional</strong> work here. Feel free to ontact me with any specific questions! </p>
+              <p className="my-4"><a className="underline" href="https://engineering.columbia.edu/" target="_blank" rel="noreferrer"><strong>Columbia Engineering</strong></a> - Strategized the migration of a 5000+ page behemoth of a CMS to a new platform, designing and developing along the way.</p>
               <p className="my-4"><a className="underline" href="https://cohencpa.com/" target="_blank" rel="noreferrer"><strong>Cohen & Company</strong></a> - Worked with a team of developers to build the company site.</p>
               <p className="my-4"><a className="underline" href="https://web.archive.org/web/20230628075943/https://www.goodyeartrucktires.com/total-mobility/" target="_blank" rel="noreferrer"><strong>Goodyear</strong></a> - Developed + designed the "Total Mobility" section of the site.</p>
               <p className="my-4"><a className="underline" href="https://teamaftermath.com/" target="_blank" rel="noreferrer"><strong>AfterMath</strong></a> - Developed + designed the company site.</p>
               <p className="my-4"><a className="underline" href="https://www.bawls.com/" target="_blank" rel="noreferrer"><strong>Bawls Guarana</strong></a> - Developed the home page + information pages for the gamer drink.</p>
               <p className="my-4"><a className="underline" href="https://www.bdmorganfdn.org/2018-annual-report/" target="_blank" rel="noreferrer"><strong>BDM Microsite</strong></a> - Developed a microsite for the foundation's annual report.</p>
-              <p className="my-4"><a className="underline" href="https://tahomaenterprises.com/" target="_blank" rel="noreferrer"><strong>Tahoma Enterprises</strong></a> - Developed + designed the company site.</p>
               <p className="my-4"><a className="underline" href="https://www.neoship.org/" target="_blank" rel="noreferrer"><strong>SHIP Website</strong></a> - Developed a Drupal CMS site for Triad's "Design for Good" campaign.</p>
               <hr />
           </div>
