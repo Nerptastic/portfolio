@@ -6,7 +6,7 @@ function Home() {
     <div className="Home text-center pb-24">
         <Cursor />
         <h1 className="text-4xl font-bold">Nicholas Paolucci</h1>
-          <p className="m-4">Building online experiences</p>
+          <p className="m-4">Software engineer. Systems, tools, and useful things.</p>
           <div className="flex justify-center space-x-4 mt-2">
             <a href="mailto:nichopaolucci@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
